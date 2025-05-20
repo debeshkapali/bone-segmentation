@@ -1,0 +1,6 @@
+Mask,Medial_X,Medial_Y,Medial_Z,Lateral_X,Lateral_Y,Lateral_Z
+original_mask,256,405,215,382,391,215
+expanded_mask_2mm,256,408,215,378,395,215
+expanded_mask_4mm,256,410,215,378,397,215
+randomized_mask_1,256,405,215,382,391,215
+randomized_mask_2,256,405,215,382,391,215

@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+# Ignore raw data input
+data/
+*.nii
+# Keep results (these are needed)
+!results/*.nii.gz
+
+
