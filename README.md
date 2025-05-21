@@ -4,6 +4,12 @@ This project focuses on segmenting the tibia bone from 3D knee CT scans and iden
 
 ---
 
+### ⚠️ Note on Input Data
+
+Due to GitHub’s file size restriction (maximum 100 MB), the original CT scan file `left_knee.nii` (≈216 MB) has **not been included** in this repository.
+
+---
+
 ## 🎯 Objective
 
 The primary goal is to identify consistent anatomical tibial landmarks across multiple mask variations derived from a single 3D CT scan of a left knee. These variations include morphological expansions and randomized perturbations. The process aims to support reproducibility and robustness testing in medical imaging workflows.
@@ -12,8 +18,17 @@ The primary goal is to identify consistent anatomical tibial landmarks across mu
 
 ## 📁 Project Structure
 
-<pre> <code> ``` bone-segmentation-knee/ ├── data/ # Input CT data (left_knee.nii), not included in github since the data size exceeds the limit(100 MB) ├── results/ # Output masks and landmark CSVs ├── report/ # Final report in .pdf ├── src/ # Core scripts for processing ├── tests/ # Debug/testing scripts ├── utils/ # IO and visualization utilities ├── requirements.txt # Python dependencies └── README.md # Project overview ``` </code> </pre>
-
+```
+bone-segmentation/
+├── data/                 # Input CT data (left_knee.nii), not included
+├── results/              # Output masks and landmark CSVs
+├── report/               # Final report in .pdf
+├── src/                  # Core scripts for processing
+├── tests/                # Debug/testing scripts
+├── utils/                # IO and visualization utilities
+├── requirements.txt      # Python dependencies
+└── README.md             # Project overview
+```
 
 ---
 
