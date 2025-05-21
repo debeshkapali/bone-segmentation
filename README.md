@@ -12,15 +12,7 @@ The primary goal is to identify consistent anatomical tibial landmarks across mu
 
 ## 📁 Project Structure
 
-bone-segmentation-knee/
-├── data/ # Input CT data (left_knee.nii)
-├── results/ # Output masks and landmark CSVs
-├── report/ # Final report in .pdf
-├── src/ # Core scripts for processing
-├── tests/ # Debug/testing scripts
-├── utils/ # IO and visualization utilities
-├── requirements.txt # Python dependencies
-└── README.md # Project overview
+<pre> <code> ``` bone-segmentation-knee/ ├── data/ # Input CT data (left_knee.nii), not included in github since the data size exceeds the limit(100 MB) ├── results/ # Output masks and landmark CSVs ├── report/ # Final report in .pdf ├── src/ # Core scripts for processing ├── tests/ # Debug/testing scripts ├── utils/ # IO and visualization utilities ├── requirements.txt # Python dependencies └── README.md # Project overview ``` </code> </pre>
 
 
 ---
